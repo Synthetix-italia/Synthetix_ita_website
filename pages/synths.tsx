@@ -1,14 +1,9 @@
 import Head from 'next/head';
 import styled from 'styled-components';
-import SynthsInfo from 'src/sections/synths/SynthsInfo';
 import { Section, SectionTitle, Line } from 'src/styles/common';
 import { PageLayout } from 'src/components';
 import media from 'styled-media-query';
-import exchangeInfoQuery, { Fees, Rates } from 'src/queries/exchangeInfo/useExchangeInfoQuery';
-import getSNXJS from 'src/lib/snxjs';
-import useMarketClosed from 'src/hooks/useMarketClosed';
-import { SynthStatus } from 'src/sections/synths/SynthCard';
-import { Synth } from '@synthetixio/contracts-interface';
+
 
 const getSynthStatus = async (useOvm: boolean) => {
 	const synths = getSNXJS({ useOvm }).synths;
