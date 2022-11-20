@@ -1,5 +1,6 @@
 import Discord from '../svg/Discord';
 import Twitter from '../svg/Twitter';
+import Github from '../svg/Github';
 import Link from 'next/link';
 import { Flex } from '@chakra-ui/react';
 
@@ -13,6 +14,11 @@ const data = (fill?: string) => [
 		link: 'https://discord.com/invite/AEdUHzt',
 		label: 'discord',
 		image: <Discord fill={fill} />,
+	},
+	{
+		link: 'https://github.com/Synthetixita/',
+		label: 'github',
+		image: <Github fill={fill} />,
 	},
 
 

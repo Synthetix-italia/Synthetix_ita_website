@@ -135,7 +135,7 @@ const accordionItems: AccordionItemsType[] = [
 				Simulare prezzi di cripto, valute fiat, azioni, materie prime e molto altro ancora con uno slippage pari a zero.
 			</div>,
 			<div key="synthetix-assets-description-three">
-				Gli asset sintetici o Synth, sono votati dalla DAO e possono esseere: valute fiat, cripto,
+				Gli asset sintetici o Synth, sono votati dalla DAO e possono essere: valute fiat, cripto,
 				azioni, materie prime e qualsiasi altra cosa abbia un prezzo.
 			</div>,
 		],

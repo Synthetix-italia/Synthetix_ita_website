@@ -56,6 +56,8 @@ export default function Ecosystem() {
 			<EcosystemSubline>
 			    Molte piattaforme sfruttano già il protocollo Synthetix per la sua profonda liquidità e la componibilità per offrire
 				migliori operazioni con minore slippage, copertura e altri casi d'uso unici. 
+				<br></br><br></br>
+					Attualmente Synthetix è integrato in moltissime dApp tra cui: 
 			</EcosystemSubline>
 			<ImageContainer>
 				{images.map((image) => (
