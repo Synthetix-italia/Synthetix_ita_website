@@ -1,39 +1,7 @@
-import { PerpetualSynth } from 'pages/futures';
-import { getAssetLogo } from 'src/constants/urls';
 import { FlexDiv } from 'src/styles/common';
 import PriceArrow from 'src/svg/PriceArrow';
 import styled from 'styled-components';
 
-export default function FutureSynthCard({
-	priceChange,
-	priceInUSD,
-	volume,
-	category,
-	name,
-}: PerpetualSynth) {
-	return (
-		<StyledFutureSynthCard>
-			<StyledSynthImage src={getAssetLogo(name)} />
-			<StyledFutureContent>
-				<FlexDiv>
-					<StyledSynthName>{name}</StyledSynthName>
-					<PriceArrow priceChange={priceChange} />
-					<StyledPriceChange positive={priceChange >= 0}>
-						{priceChange.toFixed(2)}%
-					</StyledPriceChange>
-				</FlexDiv>
-				<StyledSynthCategory>{category}</StyledSynthCategory>
-				<StyledPrefix>
-					<StyledSynthPrice>{priceInUSD}</StyledSynthPrice> USD
-				</StyledPrefix>
-				<StyledPrefix>
-					VOL &nbsp;
-					<StyledSynthVolume>${volume}</StyledSynthVolume>
-				</StyledPrefix>
-			</StyledFutureContent>
-		</StyledFutureSynthCard>
-	);
-}
 
 const StyledFutureSynthCard = styled.div`
 	width: 298px;
