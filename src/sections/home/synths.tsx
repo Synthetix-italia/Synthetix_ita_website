@@ -15,6 +15,10 @@ const SynthSection = () => {
 		<SynthGraphic src="/earn.svg" key="earnSVG" />,
 		<SynthGraphic src="/trade-synths-eth-btc.svg" key="synthsSVG" />,
 		<SynthGraphic src="/build-circle.svg" key="circleSVG" />,
+		<SynthGraphic src="/graph.svg"  key="graphSVG" />,
+		<SynthGraphic src="/graph.svg"  key="graphSVG" />,
+		<SynthGraphic src="/graph.svg"  key="graphSVG" />,
+
 	];
 
 	return (
@@ -141,7 +145,7 @@ const accordionItems: AccordionItemsType[] = [
 		descriptions: [
 			<div key="stake-earn">
 				La partecipazione allo staking di SNX fornisce garanzie per il pool di debiti e fa guadagnare ricompense settimanali che sono una combinazione di commissioni di protocollo e di incentivi
-				derivanti dall'inflazionistica. <a href="https://staking.synthetix.io/" target="_blank">👉 STAKE ORA 👈</a> 
+				derivanti dall'inflazionistica. <a href="https://staking.synthetix.io/" target="_blank"> <br></br> 👉 STAKE ORA 👈</a> 
 			</div>,
 		],
 	},
@@ -150,7 +154,7 @@ const accordionItems: AccordionItemsType[] = [
 		descriptions: [
 			<div key="trade-synth">
 				Negoziare qualsiasi Synths con uno slippage basso o nullo e una liquidità profonda. Disponibile nei mercati spot e futures.    
-				 <a href="https://kwenta.io/" target="_blank">👉 KWENTA 👈</a>
+				 <a href="https://kwenta.io/" target="_blank"> <br></br> 👉 KWENTA 👈</a>
 			</div>,
 		],
 
@@ -160,12 +164,12 @@ const accordionItems: AccordionItemsType[] = [
 		descriptions: [
 			<div key="build-synths">
 				Con una migliore componibilità, chiunque può sfruttare il protocollo
-				ed avviare il proprio protocollo e community attraverso Synthetix. <a href="https://docs.synthetix.io/" target="_blank">👉 SCOPRI DI PIU 👈</a>
+				ed avviare il proprio protocollo e community attraverso Synthetix. <a href="https://docs.synthetix.io/" target="_blank"> <br></br> 👉 SCOPRI DI PIU 👈</a>
 				</div>,
 		],
 	},
 		{
-		title: 'Futueres: Esecuzione del miglior prezzo',
+		title: 'PERPETUAL FUTURES: Esecuzione del miglior prezzo',
 		descriptions: [
 			<div key="Best Price Execution">
 				Sfruttando il pool di debito di Synthetix e l'innovativo quadro di liquidità, i nostri trader hanno
@@ -174,7 +178,7 @@ const accordionItems: AccordionItemsType[] = [
 		],
 	},
 	{
-		title: 'Futures: Minimo tempo di inattività e rischio di liquidazione',
+		title: 'PERPETUAL FUTURES: Minimo tempo di inattività e rischio di liquidazione',
 		descriptions: [
 			<div key="Lowest Downtime & Liquidation Risk">
 				Dite addio ai tempi morti durante i periodi di alta volatilità. 
@@ -183,12 +187,12 @@ const accordionItems: AccordionItemsType[] = [
 		],
 	},
 	{
-		title: 'Futueres: Senza permessi e componibile',
+		title: 'PERPETUAL FUTURES: Senza permessi e componibile',
 		descriptions: [
 			<div key="Permissionless & Composable">
 				Ottenete tutti i vantaggi della DeFi con un'esperienza di trading sui futures completamente on-chain e senza permessi.
 				Esperienza di trading PERMISSIONLESS. 
-				Volete costruire con contratti futures perpetui a leva?  <a href="https://docs.synthetix.io/" target="_blank">👉 SCOPRI DI PIU 👈</a>
+				Volete costruire con contratti futures perpetui a leva?  <a href="https://docs.synthetix.io/" target="_blank"> <br></br> 👉 SCOPRI DI PIU 👈</a>
 			</div>,
 		],
 	},
