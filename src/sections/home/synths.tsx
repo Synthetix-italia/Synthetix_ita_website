@@ -192,7 +192,7 @@ const accordionItems: AccordionItemsType[] = [
 			<div key="Permissionless & Composable">
 				Ottenete tutti i vantaggi della DeFi con un'esperienza di trading sui futures completamente on-chain e senza permessi.
 				Esperienza di trading PERMISSIONLESS. 
-				Volete costruire con contratti futures perpetui a leva?  <a href="https://docs.synthetix.io/" target="_blank"> <br></br> 👉 SCOPRI DI PIU 👈</a>
+				Volete costruire con contratti futures perpetui a leva?  <a href="https://docs.synthetix.io/" target="_blank"> <br></br> 👉 SCOPRI DI PIU 👈</a><br></br><br></br>
 			</div>,
 		],
 	},

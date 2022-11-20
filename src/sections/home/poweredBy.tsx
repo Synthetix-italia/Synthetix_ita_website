@@ -119,7 +119,7 @@ const PoweredBy = () => {
 			<StyledPoweredByGrid />
 			<StyledBackgroundByBackgroundMobile />
 			<ContentWrapper>
-				<PoweredBySectionTitle>Ecosistema Synthetix ITALIA</PoweredBySectionTitle>
+				<PoweredBySectionTitle> <br></br> Ecosistema Synthetix ITALIA</PoweredBySectionTitle>
 				<PoweredBySubline>
 					Synthetix come base per Asset in blockchain completamente aperto permette a qualunque progetti di costruire su di esso. 
 					Synthetix Italia quindi cerca di coprire ed informare il mertato italiano anche su quei Protocolli che fanno parte dell'ecosistema Synthetix. 

@@ -52,7 +52,7 @@ const images: ImageProps[] = [
 export default function Ecosystem() {
 	return (
 		<EcoSystemSection customMaxWidth={true}>
-			<EcosystemSectionTitle>SYNTHETIX ECOSYSTEM</EcosystemSectionTitle>
+			<EcosystemSectionTitle><br></br><br></br>SYNTHETIX ECOSYSTEM</EcosystemSectionTitle>
 			<EcosystemSubline>
 			    Molte piattaforme sfruttano già il protocollo Synthetix per la sua profonda liquidità e la componibilità per offrire
 				migliori operazioni con minore slippage, copertura e altri casi d'uso unici. 
