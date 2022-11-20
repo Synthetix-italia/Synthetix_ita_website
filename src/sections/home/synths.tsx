@@ -37,10 +37,10 @@ const SynthSection = () => {
 };
 
 const SynthContainer = styled(Section)`
-	min-height: 700px;
+	min-height: 900px;
 	display: flex;
 	align-items: center;
-	padding: 0 0 0 153px;
+	padding: 0 0 0 53px;
 
 	${media.lessThan('medium')`
 		flex-direction: column-reverse;
@@ -61,12 +61,12 @@ const SynthContainer = styled(Section)`
 
 const Left = styled.div`
 	max-width: 480px;
-	height: 364px;
+	height: 564px;
 	margin-right: auto;
 `;
 
 const SynthGraphicAbsolute = styled.img`
-	height: 444px;
+	height: 344px;
 	position: absolute;
 	right: 0;
 	pointer-events: none;

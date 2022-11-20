@@ -121,7 +121,7 @@ const PoweredBy = () => {
 			<ContentWrapper>
 				<PoweredBySectionTitle>Ecosistema Synthetix ITALIA</PoweredBySectionTitle>
 				<PoweredBySubline>
-					Synthetix come base per Asset in blockchain completamente aperto permette e molti progetti di costruire su di esso. 
+					Synthetix come base per Asset in blockchain completamente aperto permette a qualunque progetti di costruire su di esso. 
 					Synthetix Italia quindi cerca di coprire ed informare il mertato italiano anche su quei Protocolli che fanno parte dell'ecosistema Synthetix. 
 				</PoweredBySubline>
 				<SliderWrapper>
@@ -160,7 +160,7 @@ const PoweredByContainer = styled(Section)`
 	flex-direction: column;
 	align-items: center;
 	background-color: ${({ theme }) => theme.colors.bgBlackHighlighted};
-	padding: 70px 40px 30px;
+	padding: 10px 40px 30px;
 
 	${media.lessThan('1920px' as any)`
 		min-height: 800px;
@@ -253,7 +253,7 @@ const StyledBackgroundByBackgroundMobile = styled(PoweredByBackgroundMobile)`
 		position: absolute;
 		top: 0;
 		left: 0;
-		width: 100%;
+		width: 00%;
 		height: auto;
 `}
 `;
@@ -261,12 +261,14 @@ const StyledBackgroundByBackgroundMobile = styled(PoweredByBackgroundMobile)`
 const PoweredBySectionTitle = styled(SectionTitle)`
 	width: 100%;
 	text-align: center;
-	margin-bottom: 12px;
+	margin-bottom: 22px;
 `;
 
 const PoweredBySubline = styled(Subline)`
-	max-width: 700px;
+	max-width: 900px;
 	text-align: center;
+	margin-bottom: 0px;
+
 `;
 
 const SliderWrapper = styled.div`

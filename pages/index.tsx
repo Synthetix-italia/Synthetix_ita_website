@@ -34,6 +34,7 @@ const Home = ({ totalStakedValue }: ApiStatsProps) => {
 				<SynthSection />
 				<Line />
 				<PoweredBy />
+				<Line />
 				<Ecosystem />
 				<Line showOnMobile />
 			</PageLayout>
