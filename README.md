@@ -2,7 +2,7 @@
 
 # Getting started
 
-Create your own <.env.local> file with:
+Create your own .env.local file with:
 
 cp .env.example .env.local
 
