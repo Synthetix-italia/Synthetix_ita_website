@@ -30,12 +30,12 @@ const Home = ({ totalStakedValue }: ApiStatsProps) => {
 					pointerEvents="none"
 				/>
 				<MainSection />
-				<Line />
+				<Line showOnMobile />
 				<SynthSection />
-				<Line />
-				<PoweredBy />
-				<Line />
+				<Line showOnMobile />
 				<Ecosystem />
+				<Line showOnMobile />
+				<PoweredBy />
 				<Line showOnMobile />
 			</PageLayout>
 		</>

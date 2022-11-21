@@ -94,16 +94,16 @@ const SynthGraphic = styled.img`
 
 	${media.lessThan('large')`
 		margin-right: 0;
-		height: 400px;
+		height: 500px;
 	`}
 
 	${media.lessThan('950px' as any)`
-		height: 300px;
+		height: 400px;
 	`}
 
 	${media.lessThan('medium')`
 		width: 100%;
-		height: 444px;
+		height: 344px;
 		margin-bottom: 16px;
 		transform: none;
 		`}
