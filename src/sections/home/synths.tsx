@@ -145,7 +145,7 @@ const accordionItems: AccordionItemsType[] = [
 		descriptions: [
 			<div key="stake-earn">
 				La partecipazione allo staking di SNX fornisce garanzie per il pool di debiti e fa guadagnare ricompense settimanali che sono una combinazione di commissioni di protocollo e di incentivi
-				derivanti dall'inflazionistica. <a href="https://staking.synthetix.io/" target="_blank"> <br></br> 👉 STAKE ORA 👈</a> 
+				derivanti dall'inflazionistica. <a href="https://mirror.xyz/synthetixitalia.eth/ZF4S__EILZDnf_FF8dNGgOxwdNepN1MM9rk5uw-0lIw" target="_blank"> <br></br> 👉 Leggi come ORA 👈</a> 
 			</div>,
 		],
 	},
