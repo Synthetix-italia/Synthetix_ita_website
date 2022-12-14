@@ -44,7 +44,7 @@ const data: {
 		hideOnHeader: false,
 	},
 	{
-		externalLink: 'https://discord.com/invite/AEdUHzt',
+		externalLink: 'https://discord.com/invite/3GJqVVYKrd',
 		label: '🌎 Discord',
 		hideOnHeader: false,
 	},

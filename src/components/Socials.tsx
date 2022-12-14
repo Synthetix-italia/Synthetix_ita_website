@@ -11,7 +11,7 @@ const data = (fill?: string) => [
 		image: <Twitter fill={fill} />,
 	},
 	{
-		link: 'https://discord.com/invite/AEdUHzt',
+		link: 'https://discord.com/invite/3GJqVVYKrd',
 		label: 'discord',
 		image: <Discord fill={fill} />,
 	},
