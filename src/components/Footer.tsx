@@ -56,7 +56,7 @@ const footerMenu = [
 
 	],
 	[
-		{ title: 'Community' },
+		{ title: 'Community ' },
 		{ title: 'Italian Discord', link: 'https://discord.com/invite/3GJqVVYKrd' },
 		{ title: 'Italian Telegram', link: 'https://t.me/synthetix_ita' },
 		{ title: 'International Discord', link: 'https://discord.com/invite/AEdUHzt' },
