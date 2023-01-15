@@ -17,7 +17,7 @@ const Home = ({ totalStakedValue }: ApiStatsProps) => {
 	return (
 		<>
 			<Head>
-				<title>Synthetix Italia 🇮🇹</title>
+				<title>Synthetix Italia 🇮 🇹</title>
 			</Head>
 			<PageLayout>
 				<Box
